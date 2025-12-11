@@ -1,0 +1,53 @@
+{
+  "domain": {
+    "domainDN": "DC=ad,DC=domain,DC=home",
+    "dnsDomain": "ad.domain.local"
+  },
+  "organizationalUnits": {
+    "baseOUName": "ServiceAccounts",
+    "baseOUPath": "DC=ad,DC=domain,DC=home",
+    "gMSAGroupsOUName": "gMSA-Groups",
+    "gMSAAccountsOUName": "gMSA-Accounts"
+  },
+  "computerAccounts": [
+    "prm-expggprm-01$"
+  ],
+  "gmsaAccounts": [
+    {
+      "name": "exp-bluedaemon2",
+      "description": "gMSA service account for BIM deployment daemon",
+      "securityGroup": {
+        "name": "gr-exp-blue-daemon-2",
+        "description": "Security group for exp-blue-daemon gMSA"
+      },
+      "passwordIntervalDays": 30
+    },
+    {
+      "name": "blue-prod-02-bc",
+      "description": "gMSA service account for BlueCore application",
+      "securityGroup": {
+        "name": "gr-blue-prod-02-bc",
+        "description": "Security group for blue-prod-01-bc gMSA (BlueCore)"
+      },
+      "passwordIntervalDays": 30
+    },
+    {
+      "name": "blue-prod-02-bh",
+      "description": "gMSA service account for BlueHome application",
+      "securityGroup": {
+        "name": "gr-blue-prod-02-bh",
+        "description": "Security group for blue-prod-01-bh gMSA (BlueHome)"
+      },
+      "passwordIntervalDays": 30
+    },
+    {
+      "name": "blue-prod-02-bn",
+      "description": "gMSA service account for BlueNext application",
+      "securityGroup": {
+        "name": "gr-blue-prod-02-bn",
+        "description": "Security group for blue-prod-01-bn gMSA (BlueNext)"
+      },
+      "passwordIntervalDays": 30
+    }
+  ]
+}
