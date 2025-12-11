@@ -9,9 +9,9 @@ Overview
 Explorance products can be deployed in customer-managed infrastructure for organizations that require full control over data residency, networking, and security. This repository centralizes the tooling and reference materials needed for:
 
 Preparing the host environment
-
+ 
 Running installation or upgrade workflows
-
+ 
 Configuring system services and dependencies
 
 Automating operational tasks
