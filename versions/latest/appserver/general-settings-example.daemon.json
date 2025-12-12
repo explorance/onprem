@@ -1,0 +1,12 @@
+{
+  "BlueCoreReportBasePath": "C:\\temp\\on-prem-blue-reports",
+  "CertificateAlternativeSubjectName": "blue.ucsc.edu",
+  "DeploymentAppBasePath": "C:\\temp\\on-prem-deployment-apps",
+  "GmsaAccountDomainName": "explorancelab",
+  "GmsaAccountNameBlueCore": "expstest17bc",
+  "GmsaAccountNameBlueHome": "expstest17bh",
+  "GmsaAccountNameBlueNext": "expstest17bn",  
+  "IISWebsiteBasePath": "C:\\temp\\on-prem-iis",
+  "ProgramFilesPath": "C:\\Program Files",
+  "WebsiteBackupBasePath": "C:\\temp\\on-prem-backups"  
+}
